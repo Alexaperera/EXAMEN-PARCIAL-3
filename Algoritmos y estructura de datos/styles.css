@@ -1,0 +1,40 @@
+body {
+    font: 100% sans-serif;
+    margin: 20px;
+}
+
+button {
+    background-color: #e6b0aa;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fadbd8  ;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.input-container input {
+    margin-right: 10px;
+    padding: 5px;
+}
